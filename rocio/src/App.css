@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*-------------Barra---------------*/
+
+header {
+  background-color: #1CA9FF;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 50px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+/*----------barra de moviles---------------*/
+
+@media only screen and (max-width: 700px){
+  header{justify-content: space-around;}
+}

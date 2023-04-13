@@ -44,6 +44,47 @@ a:hover {
   color: #aaa;
 }
 
+/*------------inicio----------------------*/
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  background:rgb(200, 200, 255);
+}
+
+section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.text_R {
+  grid-column: 1 / span 1; /* Posición del elemento en la grid */
+}
+
+.image_R {
+  grid-column: 2 / span 1; /* Posición del elemento en la grid */
+}
+
+.text_L {
+  grid-column: 2 / span 1; /* Posición del elemento en la grid */
+}
+
+.image_L {
+  grid-column: 1 / span 1; /* Posición del elemento en la grid */
+}
+
+
 /*----------barra de moviles---------------*/
 
 @media only screen and (max-width: 700px){

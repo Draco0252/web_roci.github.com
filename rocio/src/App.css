@@ -10,11 +10,14 @@ body {
   line-height: 1.5;
 }
 
+.cabezado {
+  text-align: center;
+}
+
 /*-------------Barra---------------*/
 
 header {
   background-color: #1CA9FF;
-  color: #fff;
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -35,26 +38,31 @@ li:last-child {
 }
 
 a {
-  color: #fff;
+  display: inline-block;
+  background-color: #fff;
+  color: #1CA9FF;
+  padding: 10px 20px;
+  border-radius: 30px;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: background-color 0.7s;
+  font-weight: bold;
 }
 
-a:hover {
-  color: #aaa;
-  background: #10A0FF;
+a:hover{
+  background: #5DBAFF;
+  color: #fff;
 }
 
 /*------------inicio----------------------*/
 
 section {
   padding: 20px;
-  border-bottom: 1px solid #ddd;
-  background:rgb(200, 200, 255);
+  border-bottom: 40px solid #fff;
+  background: #fff;
 }
 
 section h1 {
-  font-size: 32px;
+  font-size: 52px;
   margin-bottom: 10px;
 }
 
@@ -64,34 +72,71 @@ section p {
 }
 
 .sec {
+  padding: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px; /* Espacio entre los elementos */
-  height: 100vh;
+  gap: 0px; /* Espacio entre los elementos */
   width: 100%;
-  display: flex;
+  height: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .text_R {
   grid-column: 1 / span 1; /* Posición del elemento en la grid */
-
+  text-align: center;
 }
 
 .image_R {
   grid-column: 2 / span 1; /* Posición del elemento en la grid */
-  max-width: 100%;
-  height: auto;
 }
 
 .text_L {
   grid-column: 2 / span 1; /* Posición del elemento en la grid */
+  text-align: center;
 }
 
 .image_L {
   grid-column: 1 / span 1; /* Posición del elemento en la grid */
+}
+
+.ima{
   max-width: 100%;
   height: auto;
+  float: right;
+}
+
+
+/*--------------exposiciones-------------*/
+
+.expo{
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  justify-content: space-between;
+  border-bottom: none;
+}
+
+.lugar{
+  display: grid;
+  grid-column: 1 /span 1;
+}
+
+.fecha{
+  display: grid;
+  grid-column: 2 /span 1;
+}
+
+.fondo {
+  padding-top: 90px;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #FB5;
+}
+
+.b {
+  height: 200px;
+  width: 200px;
 }
 
 /*-------------Galeria---------------------*/
@@ -99,8 +144,9 @@ section p {
 .galeria{
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 40px;
+  margin: auto;
+  padding: auto;
+  justify-content: center;
 }
 
 .cuadros{
@@ -109,7 +155,12 @@ section p {
   align-items: center;
   border: 5px solid #3CC9FF;
   margin: 40px;
-  padding: 30px;
+  padding: 10px;
+}
+
+.letras{
+  margin: 15px;
+  color: rgb(50, 200, 95);
 }
 
 .boton {
@@ -122,8 +173,121 @@ section p {
   transition: background-color 0.3s;
 }
 
+.detalle {
+  display: none;
+}
+
+.detalle.activo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 100px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.ver-mas{
+  background: #fff;
+  display: flex;
+  border: #1CA9FF;
+  flex-direction: row;
+}
+
+.ver-mas-imagen{
+  flex: 0 0 50%;
+  background: #000;
+}
+
+.ver-mas-texto {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  margin-right: 40px;
+  padding-left: 20px;
+  border-left: #1CA9FF;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ver-mas-texto button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.detalle.activo img {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+.detalle.activo h3 {
+  color: #000;
+  font-size: 36px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.detalle.activo p {
+  color: #000;
+  font-size: 24px;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.detalle.activo button {
+  display: flex;
+  margin: 30px auto;
+  font-size: 24px;
+  padding: 10px 30px;
+  background-color: #1CA9FF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*--------------Fin------------------*/
+
+.fin {
+  color: #fff;
+  background: #2CB9FF;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
 /*----------barra de moviles---------------*/
 
-@media only screen and (max-width: 700px){
-  header{justify-content: space-around;}
+@media only screen and (max-width: 800px){
+
+header{
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+.fondo{
+  padding-right: 100px;
+  padding-left: 100px;
 }
+
+.ver-mas{
+  width: 50%;
+  height: 50%;
+  display: block;
+}
+
+.ver-mas-imagen{
+  max-width: 200px;
+  max-height: 200px;
+}}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "name": "hola",
+    "description": "La casa antigua y espaciosa con tejas rojas y ventanas de madera tallada en una calle tranquila de la ciudad, parecía haber sido sacada directamente de una película de época. A medida que te acercabas, podías ver los detalles en las molduras de las ventanas y en la barandilla del balcón. La puerta de entrada de madera maciza estaba desgastada por el tiempo y tenía una cerradura antigua. El jardín delantero estaba lleno de flores y plantas, y un pequeño camino de piedra llevaba a la entrada principal.",
+    "price": 0.0,
+    "image": "./flores.png",
+    "category": "no se",
+    "inStock": true
+  },
+  {
+    "id": "2",
+    "name": "alojomora",
+    "description": "El paisaje montañoso cubierto de nieve y bosques de pinos, era simplemente impresionante. La nieve cubría todo y hacía que el aire fuera fresco y puro. El viento soplaba suavemente a través de los árboles y se podía oír el sonido del arroyo que corría por el valle. Las montañas estaban cubiertas de nieve, con cumbres altas y afiladas que se perdían en la niebla. El sol brillaba y reflejaba la nieve, creando un espectáculo de luces y sombras en el paisaje.",
+    "price": 50.0,
+    "image": "https://imgs.search.brave.com/QFzp4GjqEfVv-x6Qb1xO0zsbA8pcjR1WuQseDrwl4aQ/rs:fit:564:771:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EzL2Y1/L2RiL2EzZjVkYjcz/ZjA1YTRhZTUxZDQz/YzIyMmQ1NDFmN2U3/LmpwZw",
+    "category": "Harri poter",
+    "inStock": true
+  },
+  {
+    "id": "3",
+    "name": "eira",
+    "description": "El plato de comida humeante, con arroz blanco, pollo frito y verduras frescas, adornado con salsa picante, parecía una obra de arte culinaria. El arroz estaba perfectamente cocido y suelto, el pollo estaba dorado y crujiente por fuera, pero jugoso por dentro, y las verduras estaban recién cortadas y llenas de sabor. La salsa picante añadía un toque de picante que combinaba perfectamente con los demás sabores.",
+    "price": 0.0,
+    "image": "https://img.pccomponentes.com/articles/30/302203/1879-msi-mpg-b550-gaming-plus.jpg",
+    "category": "esmijorn",
+    "inStock": true
+  },
+  {
+    
+    "id": "4",
+    "name": "eira",
+    "description": "La habitación oscura y lúgubre con una única ventana con barrotes, y una cama de hierro forjado en el centro, parecía sacada de una novela gótica. La luz apenas entraba por la ventana, iluminando apenas los rincones de la habitación. Las paredes eran de piedra y estaban húmedas al tacto. La cama parecía antigua y había sido usada por muchos años. El ambiente era tenebroso y misterioso, con un aire de intriga y misterio que dejaba la mente en vela.",
+    "price": 0.0,
+    "image": "https://imgs.search.brave.com/QFzp4GjqEfVv-x6Qb1xO0zsbA8pcjR1WuQseDrwl4aQ/rs:fit:564:771:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EzL2Y1/L2RiL2EzZjVkYjcz/ZjA1YTRhZTUxZDQz/YzIyMmQ1NDFmN2U3/LmpwZw",
+    "category": "esmijorn",
+    "inStock": true
+  },
+  {
+    "id": "5",
+    "name": "eira",
+    "description": "El perro grande y peludo de raza pastor alemán, saltando felizmente detrás de su dueño en un parque lleno de árboles, parecía un peluche viviente. El pelaje del perro era suave y espeso, de color marrón y negro. Saltaba y corría detrás de su dueño con la lengua afuera, moviendo la cola con entusiasmo. El parque estaba lleno de árboles, arbustos y plantas, y se podía oír el canto de los pájaros y el sonido del viento entre las hojas.",
+    "price": 0.0,
+    "image": "https://img.pccomponentes.com/articles/30/302203/1879-msi-mpg-b550-gaming-plus.jpg",
+    "category": "esmijorn",
+    "inStock": true
+  },
+  {
+
+    "id": "6",
+    "name": "eira",
+    "description": "El cielo anaranjado y rosado al atardecer, reflejado en un lago tranquilo, con una pequeña barca de remos en la orilla, parecía sacado de una postal. El sol se estaba poniendo, y los colores en el cielo iban desde el naranja al rosa, pas",
+    "price": 0.0,
+    "image": "https://img.pccomponentes.com/articles/30/302203/1879-msi-mpg-b550-gaming-plus.jpg",
+    "category": "esmijorn",
+    "inStock": true
+  },
+  {
+    "id": "7",
+    "name": "hola",
+    "description": "La casa antigua y espaciosa con tejas rojas y ventanas de madera tallada en una calle tranquila de la ciudad, parecía haber sido sacada directamente de una película de época. A medida que te acercabas, podías ver los detalles en las molduras de las ventanas y en la barandilla del balcón. La puerta de entrada de madera maciza estaba desgastada por el tiempo y tenía una cerradura antigua. El jardín delantero estaba lleno de flores y plantas, y un pequeño camino de piedra llevaba a la entrada principal.",
+    "price": 0.0,
+    "image": "https://imgs.search.brave.com/QFzp4GjqEfVv-x6Qb1xO0zsbA8pcjR1WuQseDrwl4aQ/rs:fit:564:771:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EzL2Y1/L2RiL2EzZjVkYjcz/ZjA1YTRhZTUxZDQz/YzIyMmQ1NDFmN2U3/LmpwZw",
+    "category": "no se",
+    "inStock": true
+  },
+  {
+    "id": "8",
+    "name": "alojomora",
+    "description": "El paisaje montañoso cubierto de nieve y bosques de pinos, era simplemente impresionante. La nieve cubría todo y hacía que el aire fuera fresco y puro. El viento soplaba suavemente a través de los árboles y se podía oír el sonido del arroyo que corría por el valle. Las montañas estaban cubiertas de nieve, con cumbres altas y afiladas que se perdían en la niebla. El sol brillaba y reflejaba la nieve, creando un espectáculo de luces y sombras en el paisaje.",
+    "price": 50.0,
+    "image": "https://imgs.search.brave.com/QFzp4GjqEfVv-x6Qb1xO0zsbA8pcjR1WuQseDrwl4aQ/rs:fit:564:771:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EzL2Y1/L2RiL2EzZjVkYjcz/ZjA1YTRhZTUxZDQz/YzIyMmQ1NDFmN2U3/LmpwZw",
+    "category": "Harri poter",
+    "inStock": true
+  },
+  {
+    "id": "9",
+    "name": "eira",
+    "description": "El plato de comida humeante, con arroz blanco, pollo frito y verduras frescas, adornado con salsa picante, parecía una obra de arte culinaria. El arroz estaba perfectamente cocido y suelto, el pollo estaba dorado y crujiente por fuera, pero jugoso por dentro, y las verduras estaban recién cortadas y llenas de sabor. La salsa picante añadía un toque de picante que combinaba perfectamente con los demás sabores.",
+    "price": 0.0,
+    "image": "https://img.pccomponentes.com/articles/30/302203/1879-msi-mpg-b550-gaming-plus.jpg",
+    "category": "esmijorn",
+    "inStock": true
+  },
+  {
+    
+    "id": "10",
+    "name": "eira",
+    "description": "La habitación oscura y lúgubre con una única ventana con barrotes, y una cama de hierro forjado en el centro, parecía sacada de una novela gótica. La luz apenas entraba por la ventana, iluminando apenas los rincones de la habitación. Las paredes eran de piedra y estaban húmedas al tacto. La cama parecía antigua y había sido usada por muchos años. El ambiente era tenebroso y misterioso, con un aire de intriga y misterio que dejaba la mente en vela.",
+    "price": 0.0,
+    "image": "https://imgs.search.brave.com/QFzp4GjqEfVv-x6Qb1xO0zsbA8pcjR1WuQseDrwl4aQ/rs:fit:564:771:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EzL2Y1/L2RiL2EzZjVkYjcz/ZjA1YTRhZTUxZDQz/YzIyMmQ1NDFmN2U3/LmpwZw",
+    "category": "esmijorn",
+    "inStock": true
+  },
+  {
+    "id": "11",
+    "name": "eira",
+    "description": "El perro grande y peludo de raza pastor alemán, saltando felizmente detrás de su dueño en un parque lleno de árboles, parecía un peluche viviente. El pelaje del perro era suave y espeso, de color marrón y negro. Saltaba y corría detrás de su dueño con la lengua afuera, moviendo la cola con entusiasmo. El parque estaba lleno de árboles, arbustos y plantas, y se podía oír el canto de los pájaros y el sonido del viento entre las hojas.",
+    "price": 0.0,
+    "image": "https://img.pccomponentes.com/articles/30/302203/1879-msi-mpg-b550-gaming-plus.jpg",
+    "category": "esmijorn",
+    "inStock": true
+  },
+  {
+
+    "id": "12",
+    "name": "eira",
+    "description": "El cielo anaranjado y rosado al atardecer, reflejado en un lago tranquilo, con una pequeña barca de remos en la orilla, parecía sacado de una postal. El sol se estaba poniendo, y los colores en el cielo iban desde el naranja al rosa, pas",
+    "price": 0.0,
+    "image": "https://img.pccomponentes.com/articles/30/302203/1879-msi-mpg-b550-gaming-plus.jpg",
+    "category": "esmijorn",
+    "inStock": true
+  }
+]

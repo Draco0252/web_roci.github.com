@@ -4,7 +4,7 @@
     "name": "hola",
     "description": "La casa antigua y espaciosa con tejas rojas y ventanas de madera tallada en una calle tranquila de la ciudad, parecía haber sido sacada directamente de una película de época. A medida que te acercabas, podías ver los detalles en las molduras de las ventanas y en la barandilla del balcón. La puerta de entrada de madera maciza estaba desgastada por el tiempo y tenía una cerradura antigua. El jardín delantero estaba lleno de flores y plantas, y un pequeño camino de piedra llevaba a la entrada principal.",
     "price": 0.0,
-    "image": "./flores.png",
+    "image": "https://raw.githubusercontent.com/Draco0252/web_roci.github.com/master/rocio/src/compo/img/WhatsApp%20Image%202023-04-20%20at%206.18.41%20PM.jpeg",
     "category": "no se",
     "inStock": true
   },

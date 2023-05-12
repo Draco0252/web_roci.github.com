@@ -216,9 +216,9 @@ section {
 
 
 .detalle.activo img {
-  width: 100%;
+  width: auto;
   max-height: 700px;
-  height: 100%;
+  height: auto;
   min-height: auto;
   margin: auto;
   display: flex;
@@ -279,12 +279,13 @@ li{
 
 .ver-mas{
   display: block;
+  align-content: center;
 }
 
 .detalle.activo img{
     object-fit: contain;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     min-height: 100px;
     align-items: center;
   }

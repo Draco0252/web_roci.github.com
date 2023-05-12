@@ -1,5 +1,5 @@
 import React from 'react';
-import Aps from "./img/ap.jpeg"
+import Aps from "./img/flores.jpeg"
 import Ech from "./img/nao.jpeg"
 
 
@@ -10,6 +10,7 @@ function Inicio () {
         <div class="text_R">
           <h2>Esta Es Mi Web</h2>
           <p>Aquí es donde podrás conocer más de mí y de  lo que más me gusta hacer.</p>
+          <h4>Art Rocio Burgos Vargas Sevilla</h4>
         </div>
         <div class="image_R">
           <img class='ima' src={Ech} alt="Un cuadro apstrapto" />

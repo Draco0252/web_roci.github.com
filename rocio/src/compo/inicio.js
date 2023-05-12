@@ -1,6 +1,6 @@
 import React from 'react';
-import Aps from "./img/aps.jpg"
-import Ech from "./img/mon.jpg"
+import Aps from "./img/ap.jpeg"
+import Ech from "./img/nao.jpeg"
 
 
 function Inicio () {
@@ -9,7 +9,7 @@ function Inicio () {
       <section class="sec">
         <div class="text_R">
           <h2>Esta Es Mi Web</h2>
-          <p>Aqui es donde podra conocer mas de mi y de lo que mas me gusta hacer.</p>
+          <p>Aquí es donde podrás conocer más de mí y de  lo que más me gusta hacer.</p>
         </div>
         <div class="image_R">
           <img class='ima' src={Ech} alt="Un cuadro apstrapto" />
@@ -21,7 +21,7 @@ function Inicio () {
         </div>
         <div className='text_L'>
           <h2>Exposiciones</h2>
-          <p>Ahi te muestro con detalle todos los lugares en los que e expuesto</p>
+          <p>Ahí te muestro con detalle todos los lugares en los que he expuesto.</p>
         </div>
       </section>
     </div>

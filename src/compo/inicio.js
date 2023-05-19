@@ -1,6 +1,7 @@
 import React from 'react';
 import Aps from "./img/flores.jpeg"
 import Ech from "./img/nao.jpeg"
+import Fon from "./img/expo-2023.jpeg"
 
 
 function Inicio () {
@@ -23,6 +24,15 @@ function Inicio () {
         <div className='text_L'>
           <h2>Exposiciones</h2>
           <p>Ahí te muestro con detalle todos los lugares en los que he expuesto.</p>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="text_R">
+          <h2>Galeria</h2>
+          <p>Aquí es donde puedes ver algunos de mis cuadros con mas detalle</p>
+        </div>
+        <div class="image_R">
+          <img class='ima' src={Fon} alt="Un cuadro apstrapto" />
         </div>
       </section>
     </div>

@@ -14,7 +14,7 @@ function Exposiciones() {
       <Expo
       lugar="Zoco Viapol"
       fecha="14-Mayo-2023"
-      contenido="Próximamente estaré en Venta directa al público de distintos lienzos, canvas y papel."
+      contenido="Estube en Venta directa al público de distintos lienzos, canvas y papel."
       imagen={Zoco2}/>
       <Expo
       lugar="Zoco en Parque de María Luisa"

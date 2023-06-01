@@ -22,6 +22,7 @@ p {
 
 .cabezado {
   text-align: center;
+  margin: 20px;
 }
 
 /*-------------Barra---------------*/
@@ -73,7 +74,6 @@ section {
   padding: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px; /* Espacio entre los elementos */
   width: 100%;
   height: 100%;
   align-items: center;
@@ -83,6 +83,7 @@ section {
 .text_R {
   grid-column: 1 / span 1; /* Posición del elemento en la grid */
   text-align: center;
+  margin: 5%;
 }
 
 .image_R {
@@ -92,6 +93,7 @@ section {
 .text_L {
   grid-column: 2 / span 1; /* Posición del elemento en la grid */
   text-align: center;
+  margin: 5%;
 }
 
 .image_L {
@@ -126,15 +128,15 @@ section {
 }
 
 .fondo {
-  padding-top: 90px;
+  padding:5%;
   padding-left: 20%;
   padding-right: 20%;
-  background-color: #FB5;
+  background-color: #EEE;
 }
 
 .b {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 /*-------------Galeria---------------------*/
@@ -161,13 +163,43 @@ section {
   color: rgb(50, 200, 95);
 }
 
+.etiquetas {
+  display: inline-block;
+  background-color: #1CA9FF;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  }
+
 .boton {
   display: inline-block;
   background-color: #1CA9FF;
   color: #fff;
+  font-size: 15px;
+  font-weight: bold;
   padding: 10px 20px;
   border-radius: 20px;
   text-decoration: none;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.boton:hover{
+  background: #5DBAFF;
+  color: #fff;
+}
+
+.colecion{
+  background-color: #fff;
+  color: #1CA9FF;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 10px;
+  border: none;
   transition: background-color 0.3s;
 }
 
@@ -180,7 +212,7 @@ section {
   width: 100%;
   height: 100%;
   position: fixed;
-  padding: 8%;
+  padding: 5%;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
@@ -190,7 +222,6 @@ section {
 .ver-mas{
   background: #fff;
   display: flex;
-  border: #1CA9FF;
 }
 
 .ver-mas-imagen{
@@ -282,10 +313,16 @@ li{
   align-content: center;
 }
 
+.b {
+  height: 200px;
+  width: 200px;
+}
+
 .detalle.activo img{
     object-fit: contain;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
     min-height: 100px;
     align-items: center;
   }
@@ -294,10 +331,26 @@ li{
     font-size: 23px;
   }
 .detalle.activo p {
-    font-size: 16px;
+    font-size: 13px;
   }
 .detalle.activo button{
     font-size: 12px;
     position: none;
+  }
+
+.cuadros{
+    margin: 20px;
+  }
+
+.fondo {
+  padding: 5%;
+}
+.expo{
+    display:block;
+  }
+}
+@media only screen and (max-width: 370px){
+ul{
+  display: block;
   }
 }
